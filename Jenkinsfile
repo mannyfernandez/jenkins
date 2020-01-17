@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'npm --version'
                 sh 'echo "Hello World"'
+                sh 'echo "World Heello!"'
             }
         }
     }
